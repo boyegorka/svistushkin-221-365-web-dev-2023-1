@@ -1,0 +1,210 @@
+header {
+    width: 100%;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    padding: 1.5rem;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #687A6B;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0%;
+    margin: 0;
+}
+
+.navbar-menu li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+body {
+    min-width: fit-content;
+    background-color: #EEEADF;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    padding: 1rem;
+}
+
+.about-me {
+    display: flex;
+}
+
+.block-image {
+    background-color: #EEEADF;
+    padding: 5rem;
+}
+
+.image {
+    background-color: #EEEADF;
+}
+
+.about-me-descriprion {
+    padding: 5rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-name-block {
+    display: flex;
+    flex-grow: 1;
+}
+
+.about-me-info-block {
+    flex-grow: 1;
+    position: relative;
+    gap: -5;
+}
+
+.about-me-descriprion-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    opacity: 0.4;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.about-me-descriprion-text {
+    font-family: dela-gothic-one;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.section-links {
+    display: grid;
+    place-items: center;
+}
+
+table {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+.table-button {
+    display: grid;
+    place-items: center;
+}
+
+th, td {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    width: 15rem;
+    height: 2.5rem;
+    padding: 1rem;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer {
+    background-color: #687A6B;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.footer-labels {
+    margin-top: 12.5rem;
+    display: grid;
+    place-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-label {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 8.9775rem;
+    margin-right:-8.9775rem;
+    text-align: center;
+}
+
+
+.footer-name {
+    color: #FFF;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.75);
+    font-family: dela-gothic-one;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-buttons {
+    gap: 1rem;
+    margin-top: -15rem;
+    display: grid;
+    place-items: center;
+}
+
+.footer-additional-info {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+button {
+    text-decoration: none;
+    display: flex;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    color: #EEEADF;
+    background: #C37373;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+    font-family: "dela-gothic-one";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+button:hover {
+    background: #b26969;
+}
+
+button:active {
+    background: #7C4A4A;
+    color: #c1bdb4;
+    box-shadow: -3px 3px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}

@@ -1,0 +1,76 @@
+.login {
+    font-family: "Oswald", sans-serif;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 3rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #fff;
+    text-align: center;
+}
+
+.info-block {
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.button-block {
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.field-block {
+    margin-bottom: 0.2rem;    
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    background-image: url("Img/background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: grid;
+    place-items: center;
+}
+
+input[type="text"], [type="password"] {
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border:solid 2px #000;
+}
+
+input[type="checkbox"] {
+    font-family: "Arimo", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border:solid 2px #000;
+}
+
+
+button[type=submit] {
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    border:solid 2px #000;
+
+    &:active {
+        border:solid 2px blue;
+    }
+}

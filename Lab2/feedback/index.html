@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <div class="feedback">
+        <h1>Форма обратной связи</h1>
+
+        <form method="post" action="https://httpbin.org/post">
+
+            <div class="info-block">
+                <div class="field-block">
+                    <label for="fio">ФИО</label> <br>
+                    <input type="text" name="fio" id="fio" placeholder="Введите ФИО" required> <br>
+                </div>
+
+                <div class="field-block">
+                    <label for="email">Адрес электронной почты</label> <br>
+                    <input type="text" name="email" id="email" placeholder="Введите email" required> <br>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <label>Откуда вы о нас узнали</label> <br>
+                <input type="radio" id="friends" name="info-from" value="1" checked>
+                <label for="friends">Друзья и знакомые</label><br>
+                <input type="radio" id="media" name="info-from" value="2">
+                <label for="media">Социальные сети</label><br>
+            </div>
+
+            <div class="info-block">
+                <div class="field-block">
+                    <label for="categories">Категория обращения</label> <br>
+                    <select name="categories" id="categories">
+                        <option value="1">Предложение</option>
+                        <option value="2">Жалоба</option>
+                    </select> <br>
+                </div>
+
+                <div class="field-block">
+                    <label for="text">Текст обращения</label> <br>
+                    <textarea name="text" id="text" cols="30" rows="10" required></textarea> <br>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <label for="file">Вложение</label> <br>
+                <input type="file" id="file"> <br>
+            </div>
+
+            <div class="info-block">
+                <div class="field-block">
+                    <input type="checkbox" id="personal-info-agreement" name="personal-info-agreement" required>
+                    <label for="personal-info-agreement">Даю согласие на обработку персональных данных</label><br>
+                </div>
+
+                <div class="field-block">
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

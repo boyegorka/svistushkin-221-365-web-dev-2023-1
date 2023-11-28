@@ -1,0 +1,60 @@
+.feedback {
+    font-family: "Oswald", sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.info-block {
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.field-block {
+    margin-bottom: 0.2rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+input[type=text] {
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border:solid 2px #000;
+}
+
+input[type=file] {
+    font-family: "Arimo", sans-serif;
+    font-weight: 200;
+}
+
+textarea {
+    border:solid 2px #000;
+    border-radius: 1rem;
+}
+
+select[name=categories] {
+    border-radius: 0.5rem;
+    border:solid 2px #000;
+    padding: 0.2rem;
+}
+
+button[type=submit] {
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    border:solid 2px #000;
+
+    &:active {
+        border:solid 2px blue;
+    }
+}
+

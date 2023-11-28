@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <div class="login">
+
+        <form method="post" action="https://httpbin.org/post">
+
+            <div class="info-block">
+                <div class="field-block">
+                    <label for="login">Login</label> <br>
+                    <input type="text" name="login" id="login" placeholder="Введите логин" required> <br>
+                </div>
+
+                <div class="field-block">
+                    <label for="password">Password</label> <br>
+                    <input type="password" name="password" id="password" placeholder="Введите пароль" required> <br>
+                </div>
+            </div>
+
+            <div class="info-block">
+                <button type="submit">Отправить</button>
+
+                <div class="button-block">
+                    <input type="checkbox" id="scales" name="scales">
+                    <label for="scales" required>Даю согласие на обработку персональных данных</label><br>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+button {
+    color: #FFFFFF;
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    border: 0;
+    margin: 2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.screen {
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 50px;
+    height: 70px;
+    width: 224px;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.buttons {
+    display: flex;
+}
+
+.other {
+    max-width: 180px;
+}
+
+.digits {
+    max-width: 180px;
+}
+
+.operations {
+    max-width: 54px;
+}
+
+.key-digit {
+    background-color: #333333;
+
+    &:active {
+        background-color: #737373;
+    }
+}
+
+.key-operation, .key-result {
+    background-color: #FF9F0A;
+
+    &:active {
+        background-color: #FCC78D;
+    }
+}
+
+.key-bracket, .key-clear {
+    background-color: #A5A5A5;
+
+    &:active {
+        background-color: #D9D9D9;
+    }
+}

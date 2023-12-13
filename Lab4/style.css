@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.links {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+li {
+    color: black;
+    padding: 30px 400px;
+    margin: 10px;
+    list-style-position:inside;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+
+    &:hover {
+        background-color: rgb(244, 244, 244);
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}

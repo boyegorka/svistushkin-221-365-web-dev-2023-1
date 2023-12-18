@@ -1,0 +1,22 @@
+@media print {
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+
+    .section-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-links {
+        display: none;
+    }
+}

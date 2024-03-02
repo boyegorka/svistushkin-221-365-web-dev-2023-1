@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header css="header">
+    
+    <div class="search-bar">
+        <input class="input" type="text" autocomplete="off">
+        <button class="btn">Найти</button>
+        <div class="autocomplete"></div>
+    </div>
+    
+    <div class="container">
+        <div class="left-text">
+            Показывать по
+            <select class="select-perpage">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            записей на странице
+        </div>
+        <div class="box">
+            Показаны записи с
+            <span class="from">11</span>
+            по
+            <span class="to">20</span>
+            из
+            <span class="total">190</span>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <div class="posts">
+    </div>
+</main>
+<footer class="footer container">
+        <button class="btn btn-back">Назад</button>
+        <div class="block-btns">
+        </div>
+        <button class="btn btn-forward">Вперед
+        </button>                                                                                                                                     
+</footer>
+
+<template id="post">
+    <div class="post">
+        <div class="upper_post">Evidence suggests domesticated cats have been around since 3600 B.C., 2,000 years before Egypt's pharaohs.</div>
+        <div class="lower_post">
+            <div class="author">Alex Wohlbruck</div>
+            <div class="image-right">
+                &#128077;
+                    <span class="upvotes">2</span>
+            </div>
+        </div>
+    </div>
+</template>
+<script src="script.js"></script>
+</body>
+</html>

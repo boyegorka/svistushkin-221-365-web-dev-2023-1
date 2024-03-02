@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 70%;
+}
+
+.search-bar{
+    border-radius: 5px;
+    margin: 0 30%;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.input {
+    border-width: 5px;
+    border-color: red;
+    margin: 0px;
+    width: 650px;
+}
+
+.block-multiple {
+    position: relative;
+}
+
+.list-words {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    left: 0;
+}
+
+.autocomplete {
+    border: 2px solid #d4d4d4;
+    position: absolute;
+    top: 100%;
+    width: 690px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.autocomplete div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.posts {
+    width: 100%;
+}
+
+.post {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(181, 181, 181);
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.upper_post {
+    padding: 20px 20px;
+}
+
+.lower_post{
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d3557;
+    padding: 20px 20px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: aliceblue;
+    color: red;
+    border: 1px solid red;
+}
